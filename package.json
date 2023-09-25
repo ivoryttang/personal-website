@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://ivoryttang.github.io/personal-website/",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -17,7 +17,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build --template index.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
